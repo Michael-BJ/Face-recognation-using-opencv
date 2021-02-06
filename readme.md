@@ -1,5 +1,9 @@
 # How it's works
-1. First dowload library opencv and numpy using "pip install opencv-python" and "pip install numpy
+1. First dowload library opencv and numpy 
+````
+pip install opencv-python
+pip install numpy
+````
 2. Make the program to connect to the webcam
 ```
 import cv2
