@@ -7,7 +7,7 @@ pip install numpy
 2. Make the program to connect to the webcam
 ```
 import cv2
-import numpy as numpy
+import numpy as np
 
 cap = cv2.VideoCapture(0)
 while True:
