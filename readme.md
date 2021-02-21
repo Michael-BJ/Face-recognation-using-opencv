@@ -24,13 +24,13 @@ cv2.destroyAllWindows()
 ````
 face_detect = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 ````
-5. Change the color of the picture to gray by writing this code
+5. Load the image in grayscale
 ````
 frame = cv2.imread('', cv2.IMREAD_GRAYSCALE)
 ````
 By changing to gray, the program will be easier to learn
 
-6. While we show the picture don't forget to change to color again
+6. Trun the picture to gray color
 ````
 gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
 ````
@@ -39,6 +39,3 @@ gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
     for (x, y, w, h) in faces :
         cv2.rectangle(frame,(x,y), (x+w,y+h),(0,255,0),2)
 ````
-
-# More Information
-To get more information about this project you can go to this website [link to opencv](https://opencv.org/)
