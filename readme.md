@@ -30,7 +30,7 @@ frame = cv2.imread('', cv2.IMREAD_GRAYSCALE)
 ````
 By changing to gray, the program will be easier to learn
 
-6. Trun the picture to gray color
+6. Turn the picture to gray color
 ````
 gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
 ````
