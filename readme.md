@@ -41,4 +41,4 @@ gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
 ````
 
 # Demo
-https://youtu.be/https://www.youtube.com/watch?v=8zHq6wxWeec&t=23s
+[![Watch the video](https://youtu.be/vt5fpE0bzSY)
