@@ -39,3 +39,6 @@ gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
     for (x, y, w, h) in faces :
         cv2.rectangle(frame,(x,y), (x+w,y+h),(0,255,0),2)
 ````
+
+# Demo
+https://youtu.be/https://www.youtube.com/watch?v=8zHq6wxWeec&t=23s
